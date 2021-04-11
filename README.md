@@ -1,7 +1,8 @@
 
-#SOC2K21
+# SOC2K21
 
-##CheckPoint1
+## CheckPoint1
+
 
 | Model No. 	| Architecture (Number and Size of Filters) 	| Epochs 	| Acc 	| Loss 	| Val_Acc 	| Val_Loss 	| image1 	| image2 	| image3 	|
 |-	|-	|-	|-	|-	|-	|-	|-	|-	|-	|
