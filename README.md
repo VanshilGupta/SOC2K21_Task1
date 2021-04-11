@@ -1,6 +1,7 @@
 
-*  Summary of the three Convolutional neural network model implemented on Dogs vs Cats dataset.
+## Summary of the three Convolutional neural network model implemented on Dogs vs Cats dataset.
 
+***
 
 | Model No. 	| Architecture (Number and Size of Filters) 	| Epochs 	| Acc 	| Loss 	| Val_Acc 	| Val_Loss 	| image1 	| image2 	| image3 	|
 |-	|-	|-	|-	|-	|-	|-	|-	|-	|-	|
