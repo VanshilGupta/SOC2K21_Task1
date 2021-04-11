@@ -1,7 +1,3 @@
-##   SOC2K21
-### CheckPoint1
-
-<br>
 
 *  Summary of the three Convolutional neural network model implemented on Dogs vs Cats dataset.
 
