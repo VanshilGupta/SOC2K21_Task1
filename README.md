@@ -16,10 +16,10 @@ Jupyter Notebook
 * Matplotlib
 
 ### Data preprocessing  
-Dataset contains 1500 images of each category. It is splitted as 2/3 train and 1/3 validation that is train set has 1000 images and validation set has 500 images. Each image is read in grayscale mode and the pixel values are normalized between 0 and 1.
+Dataset contains 1500 images of each category (dog and cat). It is splitted as 2/3 train and 1/3 validation that is train set has 1000 images and validation set has 500 images pf each category. Each image is read in grayscale mode and the pixel values are normalized between 0 and 1.
 
 ### Architecture 
-Implemented three different models with some changes in the convolutional layers which is flattened out and connected to a hidden layer of size 128 and given the output in the final layer of size 2. 
+Implemented three different models with some changes in the convolutional layers which is flattened out and connected to a hidden layer of size 128 and give the output in the final layer of size 2. 
 
 NETWORK PARAMETER 
 * Rectifier Linear Unit
