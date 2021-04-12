@@ -9,17 +9,24 @@
 | 2 (best)	| 32,3<br>64,3<br>128,3<br>256,3 	| 20 	| 0.9787 	| 0.0694 	| 0.75 	| 1.1060 	| 0 	| 1 	| 1 	|
 | 3 	| 8,2<br>32,2<br>64,2<br>128,2 	| 20 	| 0.9526 	| 0.1256 	| 0.71 	| 1.5257 	|  	|  	|  	|
 
-* image1 :
-
+* image1 :  
+Actual : Dog  
+Predicted : Cat
 
 ![IMAGE1](test1.PNG)
 
-* image2 : 
+
+* image2 :  
+Actual : Cat  
+Predicted : Cat
 
 
 ![IMAGE2](test2.jpeg)
 
-* image3 :
+
+* image3 :  
+Actual : Dog
+Predicted : Cat
 
 
 ![IMAGE3](test3.png)
