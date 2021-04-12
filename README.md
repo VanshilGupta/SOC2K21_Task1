@@ -37,14 +37,14 @@ NETWORK PARAMETER
 
 * Test 1 :  
 
-![IMAGE1](Result1.png)
+![IMAGE1](resources/Prediction1.PNG)
 
 
 * Test2 :  
 
-![IMAGE2](Result2.png)
+![IMAGE2](resources/Prediction2.PNG)
 
 
 * Test3 :  
 
-![IMAGE3](Result3.png)
+![IMAGE3](resources/Prediction3.PNG)
