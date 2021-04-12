@@ -1,7 +1,33 @@
-
-## Summary of the three Convolutional neural network model implemented on Dogs vs Cats dataset.
+# SOC WNCC IITB  
+## CheckPoint 1
 
 ***
+
+### Problem :
+Given a dataset of dogs and cats images, we need to implement a CNN model which could classify the dogs and cats images.
+
+### Implemented in :  
+Jupyter Notebook
+
+### Frameworks used :  
+* TensorFlow
+* Numpy
+* OpenCV
+* Matplotlib
+
+### Data preprocessing  
+Dataset contains 1500 images of each category. It is splitted as 2/3 train and 1/3 validation that is train set has 1000 images and validation set has 500 images. Each image is read in grayscale mode and the pixel values are normalized between 0 and 1.
+
+### Architecture 
+Implemented three different models with some changes in the convolutional layers which is flattened out and connected to a hidden layer of size 128 and given the output in the final layer of size 2. 
+
+NETWORK PARAMETER 
+* Rectifier Linear Unit
+* Adam optimzer
+* Binary CrossEntropy loss
+* Softmax on final output
+
+### Results
 
 | Model No. 	| Architecture (Number and Size of Filters) 	| Epochs 	| Acc 	| Loss 	| Val_Acc 	| Val_Loss 	| image1 	| image2 	| image3 	|
 |-	|-	|-	|-	|-	|-	|-	|-	|-	|-	|
@@ -9,24 +35,16 @@
 | 2 (best)	| 32,3<br>64,3<br>128,3<br>256,3 	| 20 	| 0.9787 	| 0.0694 	| 0.75 	| 1.1060 	| 0 	| 1 	| 1 	|
 | 3 	| 8,2<br>32,2<br>64,2<br>128,2 	| 20 	| 0.9526 	| 0.1256 	| 0.71 	| 1.5257 	|  	|  	|  	|
 
-* image1 :  
-Actual : Dog  
-Predicted : Cat
+* Test 1 :  
 
-![IMAGE1](test1.PNG)
+![IMAGE1](Result1.png)
 
 
-* image2 :  
-Actual : Cat  
-Predicted : Cat
+* Test2 :  
+
+![IMAGE2](Result2.png)
 
 
-![IMAGE2](test2.jpeg)
+* Test3 :  
 
-
-* image3 :  
-Actual : Dog
-Predicted : Cat
-
-
-![IMAGE3](test3.png)
+![IMAGE3](Result3.png)
