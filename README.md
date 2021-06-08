@@ -116,9 +116,8 @@ Original Video : [Street View](https://www.youtube.com/watch?v=P54ruJHZvQI&ab_ch
 
 Object Detection
 
-<figure class="video_container">
-<video controls="true" allowfullscreen="true" poster = "resources/zidane.jpg">
-<source src="resources/video.mp4" type="video/mp4">
-</video>
-</figure>
+
+https://user-images.githubusercontent.com/63975127/121268263-37883b00-c8db-11eb-9e29-bad111580d3f.mp4
+
+
 
