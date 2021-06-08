@@ -68,7 +68,7 @@ YOLOV5
 
 ### Implemented on
 
-Local
+Local <br>
 Remote, (Google Colab)
 
 ### Execution
@@ -110,14 +110,19 @@ Image(filename = "runs\detect\exp\zidane.jpg" , width = 600)
 
 <div><img src = "resources/zidane.jpg" alt = "Image" style = "width : 600px ; margin-bottom : 10px"></div>
 
+<br>
+
 Video
 
 Original Video : [Street View](https://www.youtube.com/watch?v=P54ruJHZvQI&ab_channel=AdamBelkoAdamBelko)
 
 Object Detection
 
+<<<<<<< HEAD
 
 https://user-images.githubusercontent.com/63975127/121268263-37883b00-c8db-11eb-9e29-bad111580d3f.mp4
 
 
+=======
+>>>>>>> 303e54a... Added the jupter notebook of yolov5
 
