@@ -118,11 +118,8 @@ Original Video : [Street View](https://www.youtube.com/watch?v=P54ruJHZvQI&ab_ch
 
 Object Detection
 
-<<<<<<< HEAD
 
 https://user-images.githubusercontent.com/63975127/121268263-37883b00-c8db-11eb-9e29-bad111580d3f.mp4
 
 
-=======
->>>>>>> 303e54a... Added the jupter notebook of yolov5
 
