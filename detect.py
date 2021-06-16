@@ -182,14 +182,7 @@ def detect(weights='yolov5s.pt',  # model.pt path(s)
 app = Flask ( __name__ )
 
 
-@app.route('/')
-def predict():
-    return render_template("index.html")
 
-
-@app.route('/video_feed')
-def video_feed():
-    return Response(detect(source = "./video1.mp4"), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
