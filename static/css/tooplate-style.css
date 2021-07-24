@@ -106,18 +106,16 @@ footer a:link, footer a:visited {
 .tm-content {
   padding-bottom: 50px;
   display: flex;
-  justify-content: flex-end;
   width: 100%;
+  text-align: center;
 }
 
 .tm-section {
-  margin-right: 75px;
   max-width: 100%;
 }
 
 .tm-section-title {
   font-size: 3.4rem;
-  margin-left: 40px;
   text-transform: uppercase;
 }
 

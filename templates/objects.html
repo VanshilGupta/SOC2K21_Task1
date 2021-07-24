@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            justify-content: center;
+        }
+        #test{
+            margin-right: 18px;
+            margin-bottom: 37px;
+            font-weight: bold;
+            color: brown;
+            font-family: monospace;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 id = "test"></h2>
+    </div>
+
+</body>
+{% for item in data: %}
+<script>
+    console.log('{{item}}')
+    document.getElementById('test').innerText = '{{item}}'
+</script>
+{% endfor %}
+</html>
