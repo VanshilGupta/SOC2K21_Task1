@@ -166,13 +166,26 @@ Adding features to the website.
 
 Displaying the no. of objects displayed per frame along with the frame.
 
+<br>
+
+![noOfObjects](https://user-images.githubusercontent.com/63975127/126951854-d738f722-c1a4-4cf7-826e-3d3ded36a716.PNG)
+
 <h5>Feature 2<h5>
 
 Displaying a graph which shows the caregories detected so far and new detection in each category.
+  
+<br>
+  
+![Stats](https://user-images.githubusercontent.com/63975127/126951888-974214c1-dcf3-4a02-904c-9be5d99425fd.PNG)
 
 <h5>Feature 3</h5>
 
 Saving the data to the pd dataFrame and converting it to excel at the end of inference.
+  
+<br>  
+  
+![data](https://user-images.githubusercontent.com/63975127/126951919-e5e08009-9d42-492d-8d66-fc261eea1679.PNG
+
 
 Data includes :-
 
@@ -193,9 +206,10 @@ For the features, we kept track of number of objects detected in each frame in a
 
 
 
-<h1>Future Plans</h1>
+<h1>Future Goals</h1>
 
 * <p>Implementation of custom object detection unlike the current which could detect only certain categories </p>
 * <p> The model could be run bu running the flask app from terminal and giving the source, the aim is to give a window to upload the files on the website along with a start/stop button to start and stop the object detection.
 * <p>Only saving the frames in which a particular object of choice is detected.</p>
+* <p>Finding a fast and better way to display frames on website</p>
 
