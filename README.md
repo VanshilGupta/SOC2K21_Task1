@@ -118,10 +118,7 @@ Original Video : [Street View](https://www.youtube.com/watch?v=P54ruJHZvQI&ab_ch
 
 Object Detection
 
-
 https://user-images.githubusercontent.com/63975127/122248105-77f04600-cee5-11eb-949c-9563c0e8f8f3.mp4
-
-
 
 ### Reference
 
@@ -149,8 +146,59 @@ Start the local host
 
 ## Results
 
-
 https://user-images.githubusercontent.com/63975127/122246694-665a6e80-cee4-11eb-9a90-10768e542c7b.mp4
+
+<hr>
+
+<h1>Checkpoint 4</h1>
+
+Adding features to the website.
+
+<h5>Feature 1</h5>
+
+Displaying the no. of objects displayed per frame along with the frame.
+
+
+
+<h5>Feature 2<h5>
+
+Displaying a graph which shows the caregories detected so far and new detection in each category.
+
+<h5>Feature 3</h5>
+
+Saving the data to the pd dataFrame and converting it to excel at the end of inference.
+
+Data includes :-
+
+* Time of occurence of each frame
+* No. of objects detected in each frame
+* Number of objects of each category detected per frame
+* Coordinates of bounding box of each object detected per frame.
+
+The data.csv file is saved in the runs folder after each completed inference.
+
+<h3>Summary</h3>
+
+The main objective of the project was to implement object detection using model of YOLO family and execute it to the web using web frameworks.
+Starting with brushing up Python and it's libraries - openCV, keras, matplotlib, pandas and numpy which were going to be used in the project, we learnt concepts of CNN and execute it on a datset.
+After that we used the yolov5 model to detect objects in a video, image or live stream.
+Next we learnt flask and executed our model to web.For this, we copied the contents of detect.py which is the main file of yolov5 model to the app.py.In the app.py file, the detect funtion yields the frames after the object detection of a video or image. That generator is given to the html template to display the frames using Response class of flask.
+For the features, we kept track of number of objects detected in each frame in a variable and write that variable to the frame before passing that frame in the generator.For the graph, I used a global variable in which name of categories and number of new detections is stored,which is passed in the form of generator to a html template which recieve that data and displays it using chart.js library and that template is displayed in the main template using iframe.
+
+<h3>Project Structure</h3>
+
+<p>SOC_Cats_vs_Dogs.ipynb is the file for the first checkpoint which implements a CNN on cats Vs dogs dataset.</p>
+<p>The directory as a whole is a flask project directory. App.py is the main file to run the flask app. Static files contains the css and images for the frontend, while templates has the html templates which are used by flask.</p>
+<p>Rest files are of yolov5 for the object detection </p>
+
+
+
+<h1>Future Plans</h1>
+
+* <p>Implementation of custom object detection unlike the current which could detect only certain categories </p>
+* <p> The model could be run bu running the flask app from terminal and giving the source, the aim is to give a window to upload the files on the website along with a start/stop button to start and stop the object detection.
+* <p>Only saving the frames in which a particular object of choice is detected.</p>
+
 
 
 
