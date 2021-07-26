@@ -184,7 +184,7 @@ Saving the data to the pd dataFrame and converting it to excel at the end of inf
   
 <br>  
   
-![data](https://user-images.githubusercontent.com/63975127/126951919-e5e08009-9d42-492d-8d66-fc261eea1679.PNG
+![data](https://user-images.githubusercontent.com/63975127/126951919-e5e08009-9d42-492d-8d66-fc261eea1679.PNG)
 
 
 Data includes :-
