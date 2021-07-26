@@ -199,9 +199,9 @@ The data.csv file is saved in the runs folder after each completed inference.
 <h3>Summary</h3>
 
 The main objective of the project was to implement object detection using model of YOLO family and execute it to the web using web frameworks.
-Starting with brushing up Python and it's libraries - openCV, keras, matplotlib, pandas and numpy which were going to be used in the project, we learnt concepts of CNN and execute it on a datset.
+Starting with brushing up Python and it's libraries - openCV, keras, matplotlib, pandas and numpy which were going to be used in the project, we learnt concepts of CNN and execute it on a datset.  
 After that we used the yolov5 model to detect objects in a video, image or live stream.
-Next we learnt flask and executed our model to web.For this, we copied the contents of detect.py which is the main file of yolov5 model to the app.py.In the app.py file, the detect funtion yields the frames after the object detection of a video or image. That generator is given to the html template to display the frames using Response class of flask.
+Next we learnt flask and executed our model to web.For this, we copied the contents of detect.py which is the main file of yolov5 model to the app.py.In the app.py file, the detect funtion yields the frames after the object detection of a video or image. That generator is given to the html template to display the frames using Response class of flask.  
 For the features, we kept track of number of objects detected in each frame in a variable and write that variable to the frame before passing that frame in the generator.For the graph, I used a global variable in which name of categories and number of new detections is stored,which is passed in the form of generator to a html template which recieve that data and displays it using chart.js library and that template is displayed in the main template using iframe.
 
 
